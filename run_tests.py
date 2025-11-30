@@ -611,7 +611,7 @@ class SmashShell:
     def cmd_usbinfo(self, args):
         root = "/sys/bus/usb/devices"
         if not os.path.isdir(root):
-            self.print_error("smash: usbinfo: no USB devices found")
+            self.print_error("smash error: usbinfo: no USB devices found")
             return
 
         def rfile(path):
@@ -648,7 +648,7 @@ class SmashShell:
             devices.append((devnum_int, vendor, product, manu, prod, maxp))
 
         if not devices:
-            self.print_error("smash: usbinfo: no USB devices found")
+            self.print_error("smash error: usbinfo: no USB devices found")
             return
 
         devices.sort(key=lambda x: x[0])
