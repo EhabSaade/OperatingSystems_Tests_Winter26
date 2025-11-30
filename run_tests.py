@@ -597,7 +597,8 @@ class SmashShell:
                 for line in f:
                     if line.startswith("btime "):
                         ts = int(line.split()[1])
-                        btime = datetime.datetime.fromtimestamp(ts).strftime("%Y-%m-%d %H:%M:%S")
+                        btime_dt = datetime.datetime.fromtimestamp(ts)
+                        btime = btime_dt.strftime("%Y-%m-%d %H:%M:%S")
                         break
         except:
             pass
