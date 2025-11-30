@@ -1,0 +1,34 @@
+smash> smash> smash> smash> TEST
+smash> smash> smash> smash> smash> smash> a.txt
+Commands.cpp
+Commands.h
+Commands.o
+du_test_dir
+ext_file.txt
+file1.txt
+file.txt
+inputs
+Makefile
+outputs
+README.txt
+red.txt
+run_tests.py
+signals.cpp
+signals.h
+signals.o
+simulator.py
+smash
+smash.cpp
+smash.o
+test_expected_output1.txt
+test_input1.txt
+test_output1.txt
+smash> smash> smash> smash> [3] sleep 3 &
+smash> smash error: fg: job-id 1 does not exist
+smash> smash> student
+1000
+1000
+/home/student
+smash> smash> smash> smash error: unsetenv: BADVAR does not exist
+smash> smash> smash: sending SIGKILL signal to 1 jobs:
+99176: sleep 3 &

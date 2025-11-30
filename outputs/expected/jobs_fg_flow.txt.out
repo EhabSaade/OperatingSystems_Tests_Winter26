@@ -1,0 +1,5 @@
+smash> smash> smash> [1] sleep 3 &
+[2] sleep 2 &
+smash> sleep 3 & 99461
+smash> smash> smash error: fg: jobs list is empty
+smash> smash: sending SIGKILL signal to 0 jobs:

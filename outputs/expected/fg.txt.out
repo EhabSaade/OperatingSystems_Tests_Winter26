@@ -1,0 +1,3 @@
+smash> smash> [1] sleep 2 &
+smash> sleep 2 & 99405
+smash> smash> smash: sending SIGKILL signal to 0 jobs:

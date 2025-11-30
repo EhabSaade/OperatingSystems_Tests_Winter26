@@ -1,0 +1,6 @@
+fg
+fg a
+cd a b c
+unalias not_existing
+diff a b
+quit

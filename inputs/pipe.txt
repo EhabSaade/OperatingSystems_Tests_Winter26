@@ -1,0 +1,3 @@
+echo hello | tr a-z A-Z
+echo abc |& cat
+quit

@@ -1,0 +1,2 @@
+whoami garbage 123 hello world
+quit

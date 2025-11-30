@@ -1,0 +1,4 @@
+abcdefg
+/bin/doesnotexist
+ls doesnotexist
+quit

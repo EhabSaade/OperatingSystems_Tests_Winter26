@@ -1,0 +1,5 @@
+smash> smash> smash> [1] sleep 3 &
+[2] sleep 1 &
+smash> smash: sending SIGKILL signal to 2 jobs:
+99369: sleep 3 &
+99370: sleep 1 &

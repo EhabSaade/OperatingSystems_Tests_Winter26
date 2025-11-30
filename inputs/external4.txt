@@ -1,0 +1,7 @@
+echo hello
+echo hello | tr a-z A-Z
+echo test > ext_file.txt
+cat ext_file.txt
+sleep 1 &
+jobs
+quit kill

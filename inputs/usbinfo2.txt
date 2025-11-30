@@ -1,0 +1,2 @@
+usbinfo aa 1
+quit

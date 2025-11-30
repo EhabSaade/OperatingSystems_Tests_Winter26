@@ -1,0 +1,2 @@
+echo hello world | tr a-z A-Z | tr A-Z a-z
+quit

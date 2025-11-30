@@ -1,0 +1,7 @@
+printenv VAR1
+unsetenv VAR1
+printenv VAR2
+unsetenv VAR2
+unsetenv
+unsetenv ABC XYZ
+quit

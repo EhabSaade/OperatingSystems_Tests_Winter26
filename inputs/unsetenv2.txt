@@ -1,0 +1,4 @@
+unsetenv
+unsetenv BADVAR
+unsetenv VAR1 VAR2 BADVAR
+quit

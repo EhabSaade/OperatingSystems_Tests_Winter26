@@ -1,0 +1,5 @@
+chprompt Ehab
+pwd
+chprompt
+pwd
+quit

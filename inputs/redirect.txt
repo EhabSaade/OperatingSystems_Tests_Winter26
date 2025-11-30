@@ -1,0 +1,4 @@
+echo one > file1.txt
+echo two >> file1.txt
+cat file1.txt
+quit

@@ -1,0 +1,6 @@
+smash> hello
+smash> HELLO
+smash> smash> test
+smash> smash> [1] sleep 1 &
+smash> smash: sending SIGKILL signal to 1 jobs:
+99389: sleep 1 &

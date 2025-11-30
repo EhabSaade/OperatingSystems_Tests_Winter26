@@ -1,0 +1,7 @@
+smash> smash error: fg: jobs list is empty
+smash> smash error: fg: invalid arguments
+smash> smash error: cd: too many arguments
+smash> smash error: unalias: not_existing alias does not exist
+smash> diff: a: No such file or directory
+diff: b: No such file or directory
+smash> 

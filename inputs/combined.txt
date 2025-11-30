@@ -1,0 +1,22 @@
+alias a='echo TEST'
+
+a > file1.txt
+cat file1.txt
+
+sleep 1 &
+sleep 2 &
+sleep 3 &
+
+ls | cat
+
+sleep 1 &
+sleep 2
+jobs
+fg 1
+
+whoami
+
+unsetenv VAR1
+unsetenv BADVAR
+
+quit kill

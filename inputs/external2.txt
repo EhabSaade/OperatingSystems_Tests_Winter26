@@ -1,0 +1,5 @@
+echo hello world | tr a-z A-Z | tr L X
+echo one > a.txt
+echo two >> a.txt
+cat a.txt | wc -l
+quit

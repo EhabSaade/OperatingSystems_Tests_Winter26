@@ -1,0 +1,6 @@
+mkdir -p du_test_dir
+echo -n "12345678" > du_test_dir/file1
+echo -n "abc" >> du_test_dir/file1
+du du_test_dir
+du ./test_env_du
+quit

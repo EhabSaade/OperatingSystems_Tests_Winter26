@@ -1,0 +1,7 @@
+echo hello
+echo hello | tr a-z A-Z
+echo test > file.txt
+cat file.txt
+sleep 1 &
+jobs
+quit kill

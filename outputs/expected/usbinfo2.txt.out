@@ -1,0 +1,5 @@
+smash> Device 1: ID 1d6b:0001 Linux 4.15.0-213-generic uhci_hcd UHCI Host Controller MaxPower: 0mA
+Device 2: ID 0e0f:0003 VMware VMware Virtual USB Mouse MaxPower: 0mA
+Device 3: ID 0e0f:0002 VMware, Inc. VMware Virtual USB Hub MaxPower: 0mA
+Device 4: ID 0e0f:0008 VMware Virtual Bluetooth Adapter MaxPower: 0mA
+smash> 
