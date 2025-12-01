@@ -654,11 +654,11 @@ class SmashShell:
 
         devices.sort(key=lambda x: x[0])
 
-        idx = 1
+        #idx = 1
         for d in devices:
             dn, v, p, m, pr, mp = d
-            print(f"Device {idx}: ID {v}:{p} {m} {pr} MaxPower: {mp}")
-            idx += 1
+            print(f"Device {dn}: ID {v}:{p} {m} {pr} MaxPower: {mp}")
+            #idx += 1
 
     # --------------------------------------------------------
     # ALIAS EXPANSION – FIRST TOKEN ONLY
