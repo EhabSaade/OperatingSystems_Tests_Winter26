@@ -552,7 +552,7 @@ class SmashShell:
                 fp = os.path.join(root, f)
                 try:
                     st = os.lstat(fp)
-                    total_bytes += st.st_size
+                    total_bytes += st.st_blocks * 512
                 except:
                     pass
 
