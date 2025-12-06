@@ -547,7 +547,21 @@ class SmashShell:
         path = args[0] if args else "."
         total_bytes = 0
 
+        try:
+            st = os.lstat(path)
+            total_bytes += st.st_blocks * 512
+        except:
+            pass
+
         for root, dirs, files in os.walk(path, topdown=True, followlinks=False):
+            for d in dirs:
+                fp = os.path.join(root, d)
+                try:
+                    st = os.lstat(fp)
+                    total_bytes += st.st_blocks * 512
+                except:
+                    pass
+
             for f in files:
                 fp = os.path.join(root, f)
                 try:
@@ -654,11 +668,11 @@ class SmashShell:
 
         devices.sort(key=lambda x: x[0])
 
-        #idx = 1
         for d in devices:
             dn, v, p, m, pr, mp = d
+            if v =="1d6b":
+                continue
             print(f"Device {dn}: ID {v}:{p} {m} {pr} MaxPower: {mp}")
-            #idx += 1
 
     # --------------------------------------------------------
     # ALIAS EXPANSION – FIRST TOKEN ONLY
